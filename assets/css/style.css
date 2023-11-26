@@ -46,17 +46,20 @@ img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 .thumbnail-l img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .contactos {
     width: 19%;
     border: 1px #BEC1BB solid;
-
 }
 .item-primero{
     display: flex;
@@ -77,12 +80,15 @@ img {
 .item {
     display: flex;
     flex-direction: row;  
-    gap: 10px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     border: 1px #BEC1BB solid;
-    padding: 1%;
 }
 .name{
+}
+.links{
+    display: flex;
+    gap: 10px;
+    color: #BEC1BB;
 }
