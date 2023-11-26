@@ -4,4 +4,15 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contactos{
+
+}
+.principal{
+
+}
+.item{
+    
 }
