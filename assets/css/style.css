@@ -81,6 +81,8 @@ img {
 .contactos {
     width: 19%;
     border: 1px #BEC1BB solid;
+    display: flex;
+    flex-direction: column;
 }
 .item-primero{
     display: flex;
