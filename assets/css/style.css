@@ -35,30 +35,43 @@ button:focus{
 
 }
 .container {
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 1000px
+    height: auto;
+    
 }
 
+.item-primero,
+.item-button,
+.item {
+    flex-basis: auto;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .principal {
     display: flex;
-    width: 80%;
     justify-content: center;
     align-items: center;
     background-color: #e8ebe4;
+    flex: 5;
     ;
 }
-
 .hand {
     text-align: center;
 }
 .hand h1{
-    margin-top: 5%;
+    padding-top: 5%;
 }
-img {
+.img-principal {
     height: 30vh;
+    margin-top: 5%;
 }
 
 .thumbnail-s img {
@@ -70,20 +83,15 @@ img {
     margin-bottom: 15%;
 }
 .thumbnail-l img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-top: 15%;
     margin-bottom: 15%;
     border: 2px #BEC1BB solid;
 }
 
-.contactos {
-    width: 19%;
-    border: 1px #BEC1BB solid;
-    display: flex;
-    flex-direction: column;
-}
+
 .item-primero{
     display: flex;
     flex-direction: row;  
@@ -110,6 +118,30 @@ img {
 }
 .links{
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    
+    
+}
+.links i{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
     color: #BEC1BB;
+}
+.contactos .item-primero p{
+    color: #BEC1BB;
+}
+.large{
+    font-size: 45px;
+}
+.medium{
+    
+    font-size: 16px;
+}
+.small{
+    font-size: 14px;
+}
+.x-small{
+    font-size: 10px;
 }
