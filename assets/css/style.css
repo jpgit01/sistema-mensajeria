@@ -6,13 +6,24 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-}
-.contactos{
-
+    height: 1000px
 }
 .principal{
-
+    display: flex;
+    width: 80%;
+    
+    justify-content: center;
+    align-items: center;
+    }
+    .hand{
+        text-align: center;
+    }
+img{
+    height: 30vh;
+}
+.contactos{
+width: 20%;
 }
 .item{
-    
+
 }
